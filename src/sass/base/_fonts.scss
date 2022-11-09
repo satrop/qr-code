@@ -1,0 +1,17 @@
+@import url('//fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+	--fw-r: 400;
+	--fw-b: 800;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	line-height: 1.2;
+	font-size: 1.5rem;
+	font-weight: var(--fw-r);
+	color: var(--grayish-blue);
+}

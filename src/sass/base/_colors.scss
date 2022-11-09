@@ -1,0 +1,15 @@
+:root {
+	--white: hsla(0 0% 100% / 1);
+	--light-gray: hsla(212 46% 89% / 1);
+	--grayish-blue: hsla(220 15% 55% /1);
+	--grayish-blue--dark: hsla(212 46% 89% /1);
+	--dark-blue: hsla(218 44% 22% / 1);
+}
+
+//Dark Mode
+:root:has(#dark:checked) {
+	--white: hsla(252 7% 14% / 1);
+	--light-gray: hsla(212 46% 89% / 1);
+	--grayish-blue: hsla(222 10% 54% / 1);
+	--dark-blue: hsla(222 10% 70% / 1);
+}
