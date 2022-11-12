@@ -55,7 +55,7 @@ h6 {
   white-space: nowrap;
 }
 
-:root {
+:root:has(#light:checked) {
   --white: hsla(0 0% 100% / 1);
   --light-gray: hsla(212 46% 89% / 1);
   --grayish-blue: hsla(220 15% 55% /1);
